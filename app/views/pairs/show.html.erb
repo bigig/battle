@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Round:</b>
+  <%= @pair.round_id %>
+</p>
+
+<p>
+  <b>First track url:</b>
+  <%= @pair.first_track_url %>
+</p>
+
+<p>
+  <b>Second track url:</b>
+  <%= @pair.second_track_url %>
+</p>
+
+<p>
+  <b>First user name:</b>
+  <%= @pair.first_user_name %>
+</p>
+
+<p>
+  <b>Second user name:</b>
+  <%= @pair.second_user_name %>
+</p>
+
+<p>
+  <b>Winner name:</b>
+  <%= @pair.winner_name %>
+</p>
+
+
+<%= link_to 'Edit', edit_pair_path(@pair) %> |
+<%= link_to 'Back', pairs_path %>
